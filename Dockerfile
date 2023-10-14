@@ -5,6 +5,6 @@ COPY app /home/node/app
 
 RUN npm install
 
-EXPOSE 9999
+# EXPOSE 9999
 
 CMD npm run app
